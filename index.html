@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Converter</title>
+</head>
+<link rel="stylesheet" href="css/styles.css">
+
+<body>
+    <section class="header-nav">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">ImageConverter</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+    </section>
+    <section id="converter">
+        <div class="container mt-3">
+            <div class="row justify-content-center">
+                <div class="mb-3 text-center col-md-4">
+                    <h2 for="formFile" class="form-label">Choose File to Convert</h2>
+                    <input class="form-control" type="file" id="formFile" multiple accept="image/*">
+                </div>
+            </div>
+            <div id="previews" class="preview row justify-content-center"></div>
+
+
+        </div>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
